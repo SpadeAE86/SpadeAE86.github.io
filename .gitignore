@@ -1,0 +1,35 @@
+# =====================
+# Node / pnpm 依赖
+# =====================
+node_modules/
+.pnpm-store/
+.pnpm-debug.log
+pnpm-lock.yaml  # 可选，如果你想确保每个人 lockfile 一致，可以保留
+
+# =====================
+# VuePress 构建输出
+# =====================
+docs/.vuepress/dist/
+.vuepress/dist/
+
+# =====================
+# IDE / 编辑器文件
+# =====================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# =====================
+# 系统文件
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# 日志 / 临时文件
+# =====================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
