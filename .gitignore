@@ -9,6 +9,8 @@ node_modules/
 # VuePress 构建输出
 # =====================
 docs/.vuepress/dist/
+docs/.vuepress/.cache/
+docs/.vuepress/.temp/
 .vuepress/dist/
 
 # =====================
