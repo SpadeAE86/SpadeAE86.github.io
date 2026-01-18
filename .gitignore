@@ -4,7 +4,6 @@
 node_modules/
 .pnpm-store/
 .pnpm-debug.log
-pnpm-lock.yaml  # 可选，如果你想确保每个人 lockfile 一致，可以保留
 
 # =====================
 # VuePress 构建输出
